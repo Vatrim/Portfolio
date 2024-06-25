@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap.');
+
+.página{
+    background: url(../src/imagem/image.png) center center no-repeat;
+    background-size: cover;
+   
+}
+
+.header {
+    grid-area: hero;
+    align-items: center;
+    height: 89vh;
+    background: url(../src/imagem/Intelligence_artificielle.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.text{
+    text-align: justify;
+    margin: 20px;
+}
+
+.imagem{
+        margin: 5%  19.5% 40px;
+        float:right;
+        object-fit: cover;
+        width: 400px; /* Ajuste conforme necessário */
+        height: 400px; /* Ajuste conforme necessário */
+        border-radius: 50%; /* Torna a imagem circular */
+        box-shadow: 0 0 20px rgba(126, 255, 249, 0.5), 0 0 1000px rgba(255, 255, 255, 0.5); /* Adiciona uma sombra esfumada */
+}  
+
+.dev{
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+}
+.social-media {
+    margin: 0px;
+    line-height: 1.5; /* Ajuste conforme necessário */
+    text-align: center; 
+    margin-top: 1rem;
+    display:flex;
+    justify-content: center;
+   
+}
+
+ .social-media a {
+   text-decoration: none;
+   color: #ffffff;
+   padding: 1rem 4rem;
+   border: 1px solid #ffffff;
+   min-width: 4rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transition: 0.5s ease-in-out;
+   font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; /*TAMANHO DA LETRA */
+    /* font-weight: bold; NEGRITO */
+} 
+
+.header {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px; /*TAMANHO DA LETRA */
+    /* font-weight: bold; NEGRITO */
+    color: #ffffff;
+}
+
+.hero {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; /*TAMANHO DA LETRA */
+    /* font-weight: bold; NEGRITO */
+    color: #ffffff;
+}
+
+.sobre {
+    
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10%;
+}
+
+* {
+    margin: 5;
+    padding: 5;
+}
+
+/* Animação de bounce */
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(var(--bounce-offset));
+    }
+}
+.section{
+    margin: 5px;
+}
+
+/* Elementos com a classe .box */
+.box {
+    animation: bounce alternate infinite cubic-bezier(.2, .65, .6, 1);
+}
+
+/* Configurações específicas para cada .box */
+.box.one {
+    --bounce-offset: -20px;
+    animation-duration: 200ms;
+}
+
+.box.two {
+    --bounce-offset: -30px;
+    animation-duration: 300ms;
+}
+
+.box.three {
+    --bounce-offset: -40px;
+    animation-duration: 400ms;
+}
+
+/* Agora, vamos alinhar os elementos lado a lado */
+section {
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente */
+    align-items: center; /* Alinha verticalmente */
+}
+
+    
+    .projetos{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 45px;
+        margin: 80px;
+        text-shadow: 2px 2px 4px rgb(255, 255, 255);
+        text-decoration: underline;
+    }
+
+   .tabela{
+    background-color: black;
+   }
+    .agencia h1{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        margin: 100px;
+    }  
+    
+    
+.agencia{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+}
+
+    .video-1{
+        margin: 0%;
+        float:right;
+        object-fit: cover;
+        background-repeat: no-repeat;
+}
+
+    .video-2{
+        margin: 0%;
+        float:left;
+        object-fit: cover;
+        background-repeat: no-repeat;
+    }
+
+    .calculadora h1{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        margin: 100px;
+    }  
+    
+    
+.calculadora{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+
+        .CONTATOS{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px; /*TAMANHO DA LETRA */ 
+        } 
+
+ @media (max-width: 425px) {
+     .página {
+       margin:auto;
+       background-repeat: no-repeat;
+   
+    }
+
+    .h1 {
+        font-size: 20vh;
+        text-align: center;
+    }
+        
+     .header {
+         font-size: 20px;
+    }
+
+    .social-media {
+        display:flex;  
+    }
+    .dev {
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+}
